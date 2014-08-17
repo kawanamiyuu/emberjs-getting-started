@@ -6,6 +6,8 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<script type="text/x-handlebars" data-template-name="todos">
 <section id="todoapp">
 	<header id="header">
 		<h1>todos</h1>
@@ -32,9 +34,9 @@
 	</section>
 
 	<footer id="footer">
-        <span id="todo-count">
-          <strong>2</strong> todos left
-        </span>
+		<span id="todo-count">
+		  <strong>2</strong> todos left
+		</span>
 		<ul id="filters">
 			<li>
 				<a href="all" class="selected">All</a>
@@ -56,10 +58,14 @@
 <footer id="info">
 	<p>Double-click to edit a todo</p>
 </footer>
+</script>
 
-	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="http://builds.handlebarsjs.com.s3.amazonaws.com/handlebars-1.0.0.js"></script>
-	<script src="http://builds.emberjs.com/tags/v1.3.0/ember.js"></script>
-	<script src="http://builds.emberjs.com/tags/v1.0.0-beta.5/ember-data.js"></script>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://builds.handlebarsjs.com.s3.amazonaws.com/handlebars-1.0.0.js"></script>
+<script src="http://builds.emberjs.com/tags/v1.3.0/ember.js"></script>
+<script src="http://builds.emberjs.com/tags/v1.0.0-beta.5/ember-data.js"></script>
+<script src="js/application.js"></script>
+<script src="js/router.js"></script>
+
 </body>
 </html>
